@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1em;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.dollar {
+  height: auto;
+  width: 90vw;
+}
